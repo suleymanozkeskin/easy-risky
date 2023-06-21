@@ -1,0 +1,89 @@
+{
+  "extensionTitle": {
+    "message": "Risk Management"
+  },
+  "languageLabel": {
+    "message": "Language:"
+  },
+  "walletBalanceLabel": {
+    "message": "Wallet Balance in USD:"
+  },
+  "tradeRiskSettingsLabel": {
+    "message": "Trade Risk Settings"
+  },
+  "swingTradeRiskLabel": {
+    "message": "Swing Trade Risk"
+  },
+  "swingRiskTypeLabel": {
+    "message": "Risk Type:"
+  },
+  "percentageOption": {
+    "message": "Percentage"
+  },
+  "usdOption": {
+    "message": "USD"
+  },
+  "swingRiskPerTradeLabel": {
+    "message": "Risk per Trade:"
+  },
+  "intradayTradeRiskLabel": {
+    "message": "Intra-day Trade Risk"
+  },
+  "intradayRiskTypeLabel": {
+    "message": "Risk Type:"
+  },
+  "intradayRiskPerTradeLabel": {
+    "message": "Risk per Trade:"
+  },
+  "scalpTradeRiskLabel": {
+    "message": "Scalp Trade Risk"
+  },
+  "scalpRiskTypeLabel": {
+    "message": "Risk Type:"
+  },
+  "scalpRiskPerTradeLabel": {
+    "message": "Risk per Trade:"
+  },
+  "tradeInfoLabel": {
+    "message": "Trade Information"
+  },
+  "selectedTradeTypeLabel": {
+    "message": "Trade Type:"
+  },
+  "swingOption": {
+    "message": "Swing"
+  },
+  "intradayOption": {
+    "message": "Intra-day"
+  },
+  "scalpOption": {
+    "message": "Scalp"
+  },
+  "entryPriceLabel": {
+    "message": "Entry Price:"
+  },
+  "stopLossPriceLabel": {
+    "message": "Stop Loss Price:"
+  },
+  "takeProfitPriceLabel": {
+    "message": "Take Profit Price:"
+  },
+  "calculate": {
+    "message": "Calculate"
+  },
+  "resultsLabel": {
+    "message": "Results:"
+  },
+  "positionSizeUnits": {
+    "message": "Position Size in Units: $1"
+  },
+  "positionSizeUSD": {
+    "message": "Position Size in USD: $1"
+  },
+  "riskRewardRatio": {
+    "message": "Risk Reward Ratio: $1"
+  },
+  "rewardUSD": {
+    "message": "Reward in USD: $1"
+  }  
+}

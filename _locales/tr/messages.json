@@ -1,0 +1,89 @@
+{
+  "extensionTitle": {
+    "message": "Risk Yönetimi"
+  },
+  "languageLabel": {
+    "message": "Dil:"
+  },
+  "walletBalanceLabel": {
+    "message": "Cüzdan Bakiyesi USD:"
+  },
+  "tradeRiskSettingsLabel": {
+    "message": "İşlem Risk Ayarları"
+  },
+  "swingTradeRiskLabel": {
+    "message": "Swing İşlem Riski"
+  },
+  "swingRiskTypeLabel": {
+    "message": "Risk Türü:"
+  },
+  "percentageOption": {
+    "message": "Yüzde"
+  },
+  "usdOption": {
+    "message": "USD"
+  },
+  "swingRiskPerTradeLabel": {
+    "message": "İşlem Başına Risk:"
+  },
+  "intradayTradeRiskLabel": {
+    "message": "Günlük İşlem Riski"
+  },
+  "intradayRiskTypeLabel": {
+    "message": "Risk Türü:"
+  },
+  "intradayRiskPerTradeLabel": {
+    "message": "İşlem Başına Risk:"
+  },
+  "scalpTradeRiskLabel": {
+    "message": "Scalp İşlem Riski"
+  },
+  "scalpRiskTypeLabel": {
+    "message": "Risk Türü:"
+  },
+  "scalpRiskPerTradeLabel": {
+    "message": "İşlem Başına Risk:"
+  },
+  "tradeInfoLabel": {
+    "message": "İşlem Bilgileri"
+  },
+  "selectedTradeTypeLabel": {
+    "message": "İşlem Türü:"
+  },
+  "swingOption": {
+    "message": "Swing"
+  },
+  "intradayOption": {
+    "message": "Günlük"
+  },
+  "scalpOption": {
+    "message": "Scalp"
+  },
+  "entryPriceLabel": {
+    "message": "Giriş Fiyatı:"
+  },
+  "stopLossPriceLabel": {
+    "message": "Stop-Loss Fiyatı:"
+  },
+  "takeProfitPriceLabel": {
+    "message": "Kar Al Fiyatı:"
+  },
+  "calculate": {
+    "message": "Hesapla"
+  },
+  "resultsLabel": {
+    "message": "Sonuçlar:"
+  },
+  "positionSizeUnits": {
+    "message": "Pozisyon Büyüklüğü Birimleri: $1"
+  },
+  "positionSizeUSD": {
+    "message": "Pozisyon Büyüklüğü USD: $1"
+  },
+  "riskRewardRatio": {
+    "message": "Risk/Kazanç Oranı: $1"
+  },
+  "rewardUSD": {
+    "message": "Kazanç USD: $1"
+  }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Risk Management</title>
+    <style>
+      body {
+        font-family: 'JetBrains Mono';
+        width: 300px;
+        padding: 20px;
+        background-color: rgb(14, 12, 20);
+        color: white;
+      }
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+      input,
+      select,
+      button {
+        width: 100%;
+        margin-top: 5px;
+      }
+      h2,
+      h3 {
+        margin-top: 20px;
+        color: #98C379; /* pastel green */
+      }
+      /* New CSS rules for the results section */
+      #resultsLabel {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      #results p {
+        font-size: 1.2em;
+        margin: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Risk Management</h1>
+
+    <label for="languageSelect" id="languageSelectLabel">Language:</label>
+    <select id="languageSelect">
+      <option value="en">English</option>
+      <option value="tr">Türkçe</option>
+      <option value="es">Español</option>
+      <option value="pt">Português</option>
+      <option value="de">Deutsch</option>
+    </select>
+
+    <label for="walletBalance" id="walletBalanceLabel">Wallet Balance in USD:</label>
+    <input type="number" id="walletBalance" step="0.02" />
+
+    <!-- Risk settings for each trade type -->
+    <h2 id="tradeRiskSettingsLabel">Trade Risk Settings</h2>
+    <!-- Swing Trade Risk -->
+    <h3 id="swingTradeRiskLabel">Swing Trade Risk</h3>
+    <label for="swingRiskType" id="swingRiskTypeLabel">Risk Type:</label>
+    <select id="swingRiskType">
+      <option value="percentage">Percentage</option>
+      <option value="usd">USD</option>
+    </select>
+    <label for="swingRiskPerTrade" id="swingRiskPerTradeLabel">Risk per Trade:</label>
+    <input type="number" id="swingRiskPerTrade" step="0.02" />
+
+    <!-- Intra-day Trade Risk -->
+    <h3 id="intradayTradeRiskLabel">Intra-day Trade Risk</h3>
+    <label for="intradayRiskType" id="intradayRiskTypeLabel">Risk Type:</label>
+    <select id="intradayRiskType">
+      <option value="percentage">Percentage</option>
+      <option value="usd">USD</option>
+    </select>
+    <label for="intradayRiskPerTrade" id="intradayRiskPerTradeLabel">Risk per Trade:</label>
+    <input type="number" id="intradayRiskPerTrade" step="0.02" />
+
+    <!-- Scalp Trade Risk -->
+    <h3 id="scalpTradeRiskLabel">Scalp Trade Risk</h3>
+    <label for="scalpRiskType" id="scalpRiskTypeLabel">Risk Type:</label>
+    <select id="scalpRiskType">
+      <option value="percentage">Percentage</option>
+      <option value="usd">USD</option>
+    </select>
+    <label for="scalpRiskPerTrade" id="scalpRiskPerTradeLabel">Risk per Trade:</label>
+    <input type="number" id="scalpRiskPerTrade" step="0.02" />
+
+    <!-- Trade-specific input section -->
+    <h2 id="tradeInfoLabel">Trade Information</h2>
+    <label for="selectedTradeType" id="selectedTradeTypeLabel">Trade Type:</label>
+    <select id="selectedTradeType">
+      <option value="swing">Swing</option>
+      <option value="intraday">Intra-day</option>
+      <option value="scalp">Scalp</option>
+    </select>
+
+    <label for="entryPrice" id="entryPriceLabel">Entry Price:</label>
+    <input type="number" id="entryPrice" step="0.02" />
+
+    <label for="stopLossPrice" id="stopLossPriceLabel">Stop Loss Price:</label>
+    <input type="number" id="stopLossPrice" step="0.01" />
+
+    <label for="takeProfitPrice" id="takeProfitPriceLabel">Take Profit Price:</label>
+    <input type="number" id="takeProfitPrice" step="0.01" />
+
+    <button id="calculate" data-i18n="calculate">Calculate</button>
+
+    <h2 id="resultsLabel" data-i18n="resultsLabel">Results:</h2>
+    <div id="results">
+      <p data-i18n="positionSizeUnits">Position Size in Units: <span id="positionSizeUnits"></span></p>
+      <p data-i18n="positionSizeUSD">Position Size in USD: <span id="positionSizeUSD"></span></p>
+      <p data-i18n="riskRewardRatio">Risk Reward Ratio: <span id="riskRewardRatio"></span></p>
+      <p data-i18n="rewardUSD">Reward in USD: <span id="rewardUSD"></span></p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+{
+  "extensionTitle": {
+    "message": "Gerenciamento de risco"
+  },
+  "languageLabel": {
+    "message": "Idioma:"
+  },
+  "walletBalanceLabel": {
+    "message": "Saldo da carteira em USD:"
+  },
+  "tradeRiskSettingsLabel": {
+    "message": "Configurações de risco de negociação"
+  },
+  "swingTradeRiskLabel": {
+    "message": "Risco de negociação Swing"
+  },
+  "swingRiskTypeLabel": {
+    "message": "Tipo de risco:"
+  },
+  "percentageOption": {
+    "message": "Porcentagem"
+  },
+  "usdOption": {
+    "message": "USD"
+  },
+  "swingRiskPerTradeLabel": {
+    "message": "Risco por negociação:"
+  },
+  "intradayTradeRiskLabel": {
+    "message": "Risco de negociação intra-dia"
+  },
+  "intradayRiskTypeLabel": {
+    "message": "Tipo de risco:"
+  },
+  "intradayRiskPerTradeLabel": {
+    "message": "Risco por negociação:"
+  },
+  "scalpTradeRiskLabel": {
+    "message": "Risco de negociação Scalp"
+  },
+  "scalpRiskTypeLabel": {
+    "message": "Tipo de risco:"
+  },
+  "scalpRiskPerTradeLabel": {
+    "message": "Risco por negociação:"
+  },
+  "tradeInfoLabel": {
+    "message": "Informações de negociação"
+  },
+  "selectedTradeTypeLabel": {
+    "message": "Tipo de negociação:"
+  },
+  "swingOption": {
+    "message": "Swing"
+  },
+  "intradayOption": {
+    "message": "Intra-dia"
+  },
+  "scalpOption": {
+    "message": "Scalp"
+  },
+  "entryPriceLabel": {
+    "message": "Preço de entrada:"
+  },
+  "stopLossPriceLabel": {
+    "message": "Preço do stop loss:"
+  },
+  "takeProfitPriceLabel": {
+    "message": "Preço de take profit:"
+  },
+  "calculate": {
+    "message": "Calcular"
+  },
+  "resultsLabel": {
+    "message": "Resultados:"
+  },
+  "positionSizeUnits": {
+    "message": "Tamanho da posição em unidades: $1"
+  },
+  "positionSizeUSD": {
+    "message": "Tamanho da posição em USD: $1"
+  },
+  "riskRewardRatio": {
+    "message": "Proporção de risco/recompensa: $1"
+  },
+  "rewardUSD": {
+    "message": "Recompensa em USD: $1"
+  }  
+}

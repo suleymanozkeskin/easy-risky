@@ -1,0 +1,89 @@
+{
+  "extensionTitle": {
+    "message": "Gestión de riesgos"
+  },
+  "languageLabel": {
+    "message": "Idioma:"
+  },
+  "walletBalanceLabel": {
+    "message": "Saldo de la billetera en USD:"
+  },
+  "tradeRiskSettingsLabel": {
+    "message": "Configuración de riesgo de negociación"
+  },
+  "swingTradeRiskLabel": {
+    "message": "Riesgo de negociación Swing"
+  },
+  "swingRiskTypeLabel": {
+    "message": "Tipo de riesgo:"
+  },
+  "percentageOption": {
+    "message": "Porcentaje"
+  },
+  "usdOption": {
+    "message": "USD"
+  },
+  "swingRiskPerTradeLabel": {
+    "message": "Riesgo por negociación:"
+  },
+  "intradayTradeRiskLabel": {
+    "message": "Riesgo de negociación Intradía"
+  },
+  "intradayRiskTypeLabel": {
+    "message": "Tipo de riesgo:"
+  },
+  "intradayRiskPerTradeLabel": {
+    "message": "Riesgo por negociación:"
+  },
+  "scalpTradeRiskLabel": {
+    "message": "Riesgo de negociación Scalp"
+  },
+  "scalpRiskTypeLabel": {
+    "message": "Tipo de riesgo:"
+  },
+  "scalpRiskPerTradeLabel": {
+    "message": "Riesgo por negociación:"
+  },
+  "tradeInfoLabel": {
+    "message": "Información de negociación"
+  },
+  "selectedTradeTypeLabel": {
+    "message": "Tipo de negociación:"
+  },
+  "swingOption": {
+    "message": "Swing"
+  },
+  "intradayOption": {
+    "message": "Intradía"
+  },
+  "scalpOption": {
+    "message": "Scalp"
+  },
+  "entryPriceLabel": {
+    "message": "Precio de entrada:"
+  },
+  "stopLossPriceLabel": {
+    "message": "Precio del stop loss:"
+  },
+  "takeProfitPriceLabel": {
+    "message": "Precio del take profit:"
+  },
+  "calculate": {
+    "message": "Calcular"
+  },
+  "resultsLabel": {
+    "message": "Resultados:"
+  },
+  "positionSizeUnits": {
+    "message": "Tamaño de la posición en unidades: $1"
+  },
+  "positionSizeUSD": {
+    "message": "Tamaño de la posición en USD: $1"
+  },
+  "riskRewardRatio": {
+    "message": "Proporción de riesgo/recompensa: $1"
+  },
+  "rewardUSD": {
+    "message": "Recompensa en USD: $1"
+  }  
+}
