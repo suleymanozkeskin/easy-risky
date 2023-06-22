@@ -44,6 +44,8 @@ Contributions to improve this extension are welcome! If you have suggestions, bu
 
 This extension is licensed under the MIT License.
 
+## Remember; trading might seem easy, but it's risky
+
 ## Extension Icon
 
 ![Extension Icon](assets/icon.png)
